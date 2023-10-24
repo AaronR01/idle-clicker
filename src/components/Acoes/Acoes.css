@@ -1,0 +1,20 @@
+.Acoes {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EBEBEB;
+    padding-block: 16px;
+}
+
+.Acao {
+    width: fit-content;
+    flex: 1 1 0px;
+}
+
+.Acao>button {
+    font-size: 20px;
+}
+
+.Acao>p {
+    margin: 0px;
+    font-size: 20px;
+}

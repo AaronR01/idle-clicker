@@ -1,0 +1,10 @@
+.Cabecalho {
+    background-color: #8D88AC;
+}
+
+.Cabecalho>h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0px;
+    padding-block: 4px;
+}
