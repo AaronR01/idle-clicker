@@ -16,7 +16,7 @@ export default function App() {
   });
 
   const [processos, setProcessos] = useState({
-    cortar: 1,
+      cortar: 1,
     vender: 1
   });
 
@@ -30,7 +30,7 @@ export default function App() {
   useEffect(() => {
     // Realiza transações a cada segundo
     const intervalo = setInterval(() => {
-      executaTransacao("cortar", estoque.trabalhador * processos.cortar);
+      executaTransacao("cortar", estoque.trabalhador+1 * processos.cortar);
       executaTransacao("vender", estoque.comercio * processos.vender);
     }, 1000);
     return () => clearInterval(intervalo);
