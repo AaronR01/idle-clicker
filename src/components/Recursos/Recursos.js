@@ -8,6 +8,11 @@ export default function Recursos(props) {
 					  valor={estoque.madeira} />
             <Recurso nome="Ouro" imagem="💰"
 					  valor={estoque.ouro} />
+            <Recurso nome="Casa" imagem="🏠" 
+                      valor={estoque.casa} />
+            <Recurso nome="Trabalhador" imagem="👷" 
+                      valor={estoque.trabalhador} />
+
         </section>
     );
 }
